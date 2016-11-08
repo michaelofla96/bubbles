@@ -54,6 +54,7 @@ void drawLine()
 {
   stroke(0);
   line(480, 20, 480, 480);
+  rect(30,60,80,20);
 }
 
 void draw()
