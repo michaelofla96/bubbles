@@ -11,6 +11,7 @@ void setup()
   printall();
   loadExpenses();
   drawExpenseBars();
+  drawLine();
 }
 
 void printall()
@@ -49,7 +50,12 @@ void drawExpenseBars()
   }
 }
 
+void drawLine()
+{
+  stroke(0);
+  line(480, 20, 480, 480);
+}
+
 void draw()
 {
-  
 }
